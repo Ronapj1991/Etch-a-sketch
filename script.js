@@ -22,7 +22,6 @@ function hoverEffect(color="black") {
             box.style.backgroundColor = "rgb(0,0,0,1)";
             box.style.opacity = (parseFloat(box.style.opacity) || 0) + 0.1;
             if (box.style.opacity >= 0.9) box.style.opacity = 1;
-            console.log(box.style.opacity);
         })
     })
 }
